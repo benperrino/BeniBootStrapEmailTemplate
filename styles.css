@@ -1,0 +1,29 @@
+  .clr{
+      color: #ffffff;
+  }
+  .blue{
+    background-color: #1831F2;
+  }
+  .blue2 {
+    background-color: #D8DDFD;
+  }
+  .white {
+    background-color: #ffffff;
+  }
+  .yellow{
+    color: #FFEF0A;
+  }
+  .txt{
+      text-align: center;
+      font-size: x-large;
+  }
+  .element{
+      margin-left: 40px;
+  }
+  .navspace{
+      margin-top: 40px;
+  }
+
+  .mail{
+      padding-left: 20px;
+  }

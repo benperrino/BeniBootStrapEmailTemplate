@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        
+        
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 col-md-2 blue clr rounded-lg">
+              <p class="txt"> <br> Welcome, Padre!</p> <br> 
+              <button type="button" class="btn btn-warning element" style="background-color: #FFEF0A;" >Compose</button> 
+              
+              
+              <ul class="nav nav-pills flex-column navspace">
+                  <li class="nav-item">
+                  <a class="nav-link active" href="#">Inbox (1)</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link yellow" href="#">Tagged</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link yellow" href="#">Important</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link yellow" href="#">Sent Email</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link yellow" href="#">Drafts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link yellow" href="#">Trash</a>
+                  </li>
+          </div>
+
+
+          <div class="col-sm-4 col-md-3 blue2 rounded-lg">  <br>         
+                <form class="form-inline active-cyan-3 active-cyan-4">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search for Emails"
+                  aria-label="Search">
+                </form>
+
+                <div class="border border-primary border-top-0 border-right-0 rounded-left navspace mail">
+                     <p class="font-italic text-right">21h45</p> 
+                     <p class="font-weight-bold">DiGiorgio Inc.</p> 
+                     <p> La Macchina, Il mio buon amico</p>
+                </div>
+
+                <div class="border border-primary border-top-0 border-right-0 rounded-left navspace mail
+                            shadow p-3 mb-5 bg rounded">
+                    <p class="font-italic text-right">20 Juin</p> 
+                    <p class="font-weight-bold">Gianni Versace & Padre</p>  
+                    <p> Ho visto molte volte persone che</p>
+                </div>
+           </div>
+
+
+          <div class="col-sm-4 col-md-7 green rounded-lg">
+              <p> <br> To: padre@aol.com <br>
+                       From: gianni@gianniversaceandpadre.itl </p>
+
+              <p class="font-weight-bold"> Gianni Versace & Padre</p>
+
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7z"/>
+              </svg>
+
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-folder-check" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M9.828 4H2.19a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91H9v1H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181L15.546 8H14.54l.265-2.91A1 1 0 0 0 13.81 4H9.828zm-2.95-1.707L7.587 3H2.19c-.24 0-.47.042-.684.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293z"/>
+                <path fill-rule="evenodd" d="M15.854 10.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708l1.146 1.147 2.646-2.647a.5.5 0 0 1 .708 0z"/>
+              </svg>
+
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-all" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8.002 5.013a.144.144 0 0 0-.202.134V6.3a.5.5 0 0 1-.5.5c-.667 0-2.013.005-3.3.822-.984.624-1.99 1.76-2.595 3.876C2.425 10.515 3.59 9.982 4.61 9.7a8.741 8.741 0 0 1 1.921-.306 7.403 7.403 0 0 1 .798.008h.013l.005.001h.001L7.3 9.9l.05-.498a.5.5 0 0 1 .45.498v1.153c0 .108.11.176.202.134l3.984-2.933a.494.494 0 0 1 .042-.028.147.147 0 0 0 0-.252.494.494 0 0 1-.042-.028L8.002 5.013zM6.8 10.386a7.745 7.745 0 0 0-1.923.277c-1.326.368-2.896 1.201-3.94 3.08a.5.5 0 0 1-.933-.305c.464-3.71 1.886-5.662 3.46-6.66 1.245-.79 2.527-.942 3.336-.971v-.66a1.144 1.144 0 0 1 1.767-.96l3.994 2.94a1.147 1.147 0 0 1 0 1.946l-3.994 2.94a1.144 1.144 0 0 1-1.767-.96v-.667z"/>
+                <path fill-rule="evenodd" d="M10.868 4.293a.5.5 0 0 1 .7-.106l3.993 2.94a1.147 1.147 0 0 1 0 1.946l-3.994 2.94a.5.5 0 0 1-.593-.805l4.012-2.954a.493.493 0 0 1 .042-.028.147.147 0 0 0 0-.252.496.496 0 0 1-.042-.028l-4.012-2.954a.5.5 0 0 1-.106-.699z"/>
+              </svg> <br> <br>
+
+              <p>
+                Non giudicate per non essere giudicati <br> <br>
+                Ho visto molte volte persone che vengono in Giappone per viaggiare. <br>
+                Molti hanno orari davvero pazzi. Vanno a Tokyo, Kyoto, Osaka, Nara, Kobe, <br>
+                Hiroshima – in soli dieci giorni o anche solo una settimana. <br>
+                Ho sempre pensato che fosse meglio stare in un posto più a lungo, <br> 
+                e io sicuramente pensavo che in una settimana due città o al massimo tre <br>
+                città in Giappone dovessero essere sufficienti.
+              </p>
+
+
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1" class="font-weight-bold font-italic">Reply</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+
+              <button type="button" class="btn btn-primary btn-lg">Send Email</button>
+            </div>
+        </div>
+    </div>   
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
